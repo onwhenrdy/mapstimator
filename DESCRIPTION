@@ -1,0 +1,19 @@
+Package: mapstimator
+Title: Maximum a posteriori estimator a la NONMEM
+Version: 0.1.0
+Authors@R: 
+    person(given = "Dominik",
+           family = "Selzer",
+           role = c("aut", "cre"),
+           email = "dominik.selzer@uni-saarland.de")
+Description: MAP stuff
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    RxODE,
+    units,
+    dplyr,
+    magrittr
