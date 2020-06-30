@@ -243,6 +243,7 @@ map_estimate <- function(individual_df,
                           I_OMEGA,
                           SIGMA,
                           iCov = iCov,
+                          error_model = error_model,
                           ...)
 
   # fit
